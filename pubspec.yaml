@@ -1,0 +1,20 @@
+name: general_apis_client
+description: A sample command-line application.
+version: 0.0.0
+repository: https://github.com/azkadev/general_apis_client
+publish_to: none
+
+environment:
+  sdk: ^3.2.3
+
+# Add regular dependencies here.
+dependencies:
+  general_lib: ^0.0.23
+  mason_logger: ^0.2.11
+  path: ^1.9.0
+  universal_io: ^2.2.2
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.1.0
+  test: ^1.24.0
